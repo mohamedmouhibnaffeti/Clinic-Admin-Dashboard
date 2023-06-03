@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@mui/x-data-grid": "^6.5.0",
+    "@mui/x-date-pickers": "^6.5.0",
+    "concurrently": "^8.0.1",
+    "dayjs": "^1.11.7",
+    "nodemon": "^2.0.22",
+    "proxy": "^2.1.0",
+    "react-multi-carousel": "^2.8.4"
+  },
+  "scripts": {
+    "client": "cd admin-dashboard-front && npm start",
+    "server": "cd admin-dashboard-server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

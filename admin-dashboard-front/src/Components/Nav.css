@@ -1,0 +1,24 @@
+.nav-li{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    gap: 1em;
+    list-style-type: none;
+    padding: 17px;
+    border: 1px solid #c4c4c4;
+    z-index: 1;
+}
+li{
+    cursor: pointer;
+}
+
+li #doctor-logo{
+    font-size: 25px;
+    font-weight: bold;
+}

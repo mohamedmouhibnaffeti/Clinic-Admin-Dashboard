@@ -1,0 +1,10 @@
+.login-input-container{
+    width: 400px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 12% 35%;
+    padding: 50px 20px;
+}

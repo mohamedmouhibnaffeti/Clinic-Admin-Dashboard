@@ -1,0 +1,13 @@
+.panel-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    margin-top: 60px;
+}
+.models-container{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
